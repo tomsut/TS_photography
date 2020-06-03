@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container { 
+    margin: auto;
+    flex-direction: column;
+    padding: 10px;
+}
+
+nav {
+    margin: auto;
+    flex-direction: column;
+}
+
+nav ul {
+    list-style: none;
+    padding-bottom: 60px;
+    margin: 0; 
+}
+
+nav li {
+    padding: 12px;
+    display: inline-flex;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.photobox {
+   background-color: aquamarine;
+   display: flex;
+   justify-content: space-evenly;
+   padding-left: 30px;
+}
+
+.location {
+    background-color:brown;
+    min-height: 100px;
+    width: 5%; 
+    padding-right: 20%;
+    text-align: center;
+}
+
+.photos {
+    background: pink;
+    min-height: 200px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+.photoboxtop {
+    background-color: indigo;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photoboxbottom {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagehere {
+        display: flex;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+}
+
+#box1 {
+    background-color: darkblue;
+}
+
+#box2 {
+    background-color:yellow;
+}
+
+#box3 {
+    background-color:peru;
+}
+
+#box4 {
+    background-color: green;
+}
