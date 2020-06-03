@@ -50,6 +50,9 @@ nav li {
    display: flex;
    justify-content: space-evenly;
    padding-left: 30px;
+   width: 90%;
+   margin: auto;
+   max-width: 2000px;
 }
 
 .location {
@@ -104,4 +107,17 @@ nav li {
 
 #box4 {
     background-color: green;
+}
+
+
+.img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-img {
+    padding: 0 20px 20px;
 }
