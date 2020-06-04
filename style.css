@@ -1,10 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
-
 
 a {
     color: black;
@@ -45,68 +43,29 @@ nav li {
     padding-bottom: 10px;
 }
 
+
+
+
 .photobox {
-   background-color: aquamarine;
-   display: flex;
+    display: flex;
    justify-content: space-evenly;
    padding-left: 30px;
-   width: 90%;
    margin: auto;
-   max-width: 2000px;
+   max-width: 1400px;
 }
 
 .location {
-    background-color:brown;
-    min-height: 100px;
-    width: 5%; 
-    padding-right: 20%;
-    text-align: center;
-}
-
-.photos {
-    background: pink;
-    min-height: 200px;
-    width: 70%;
+    max-width: 20%;
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    margin: 10px;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: auto;
+    max-width: 1400px;
+    max-width: 76.7%;
+   
+    padding: 0;
+    
 
-}
-
-.photoboxtop {
-    background-color: indigo;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.photoboxbottom {
-    background-color: lightgoldenrodyellow;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.imagehere {
-        display: flex;
-        height: 200px;
-        width: 200px;
-        margin: 15px;
-}
-
-#box1 {
-    background-color: darkblue;
-}
-
-#box2 {
-    background-color:yellow;
-}
-
-#box3 {
-    background-color:peru;
-}
-
-#box4 {
-    background-color: green;
 }
 
 
@@ -116,8 +75,50 @@ nav li {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    max-width: 95%;
+
+    
 }
 
 .single-img {
-    padding: 0 20px 20px;
+    padding: 5px 5px 0px 5px ;
+}
+
+.single-img img:hover {
+    opacity: .5;
+    transition: .9s;
+
+}
+
+.container{
+    position: relative;
+}
+
+.halongbayimg {
+    opacity: 1;
+    transition: .5s ease;
+    
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .halongbayimg {
+    opacity: 0.5;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.container:hover .hanoitrainimg {
+    opacity: 0.5;
 }
